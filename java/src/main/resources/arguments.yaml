@@ -12,14 +12,14 @@ PUBSUB_HOST: api.pubsub.salesforce.com
 # Pub/Sub API Host
 PUBSUB_PORT: 7443
 # Your Salesforce Login URL
-LOGIN_URL: indevllc9-dev-ed.develop.my.salesforce.com
+LOGIN_URL: null
 
 # For authentication, you can use either username/password or accessToken/tenantId types.
 # Either one of the combinations is required. Please specify `null` values to the unused type.
 # Your Salesforce Username
-USERNAME: hasan.kalayci64@gmail.com
+USERNAME: null
 # Your Salesforce Password
-PASSWORD: Sophia2020@u96HWMYtZllIWDeIsVS1JMTF
+PASSWORD: null
 # Your Salesforce org Tenant ID
 TENANT_ID: null
 # Your Salesforce Session Token
@@ -45,7 +45,7 @@ REPLAY_PRESET: null
 REPLAY_ID: null
 # Flag to enable/disable processing of bitmap fields in ChangeEventHeader in Subscribe and
 # ManagedSubscribe examples for change data capture events (default: false)
-PROCESS_CHANGE_EVENT_HEADER_FIELDS: true
+PROCESS_CHANGE_EVENT_HEADER_FIELDS: null
 
 # ManagedSubscribe RPC parameters
 # For ManagedSubscribe.java, either supply the developer name or the ID of ManagedEventSubscription
